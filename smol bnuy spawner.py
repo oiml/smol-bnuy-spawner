@@ -202,7 +202,7 @@ def add_to_spawn_list(monster):
             listbox_selected.insert(tk.END, name+",now")
         except: #doesn't exist
             pass
-    if(spawntype == "later"):
+    if(spawntype == "combat"):
         try:
             SpawnDB.append(MonsterDB[name.lower()] + ",combat")
             print("UUID " + MonsterDB[name.lower()] + ",combat inserted into SpawnDB")
