@@ -1,7 +1,16 @@
 # Oiml's Smol Bnuy Spawner
 
-This is intended to work with the [EnemySpawner](LINK REQUIRED)" mod for BG3.
-Configure, then have people write "!Spawn <monster> <now/later>" in chat to spawn the monster into BG3.
+This is intended to work with the [EnemySpawner](LINK REQUIRED) mod for BG3.
+Configure, then have people write "!Spawn <monster> <now/combat>" in chat to spawn the monster into BG3. Now spawns right now, combat spawns it into the next combat. Will not spawn into an existing combat.
+
+### Disclaimer
+
+This is just intended as a demonstration for now. I am aware that the program is terribly written and has just very basic functionality (e.g. chat is completely unfiltered, meaning it could spawn 15 enemies at once into your game).
+
+Possible improvements:
+- More configuration options, especially for filtering and chat commands
+- Properly redo the Twitch authentication (so you can use channel subscriptions, donations, bits or even channel point redemptions)
+- clean up code in general (duh)
 
 ### Configuration
 
