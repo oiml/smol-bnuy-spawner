@@ -1,6 +1,6 @@
 # Oiml's Smol Bnuy Spawner
 
-This is intended to work with the [EnemySpawner](LINK REQUIRED) mod for BG3.
+This is intended to work with the [EnemySpawner](https://www.nexusmods.com/baldursgate3/mods/8216) mod for BG3.
 Configure, then have people write "!Spawn <monster> <now/combat>" in chat to spawn the monster into BG3. Now spawns right now, combat spawns it into the next combat. Will not spawn into an existing combat.
 
 ### Disclaimer
